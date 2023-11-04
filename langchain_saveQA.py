@@ -3,7 +3,7 @@ import PyPDF2
 import pdfplumber
 from langchain.document_loaders import PyPDFLoader
 
-openai.api_key = "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"
+openai.api_key = "API_KEY"
 
 def extract_text_from_pdf(pdf_path):
 
