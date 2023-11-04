@@ -98,7 +98,7 @@ def pranav():
         "total_assets":total_assets,
         "net_income":net_income,
         "total_debt":total_debt,
-        "Earning per share":eps
+        "Earning per share":eps,
         "current ratio": current_ratio,
         "return on equity": return_on_equity,
         "Debt by Equity Ratio": d_by_e
