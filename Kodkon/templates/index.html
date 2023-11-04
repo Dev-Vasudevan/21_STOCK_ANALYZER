@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+{#      {% url_for('static', filename='./global1.css') %}#}
+{#            {% url_for('static', filename='./index1.css') %}#}
+    <link rel="stylesheet" href="{{ url_for('static',filename='global1.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='index1.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-2-parent">
+      <div class="page-2"></div>
+      <div class="stock-analyser" id="stockAnalyser"></div>
+      <button class="stock-analyser1">Stock Analyser</button>
+      <img class="frame-child" alt="" src="./public/rectangle-3.svg" />
+
+
+      <div class="key-ratios">Key Ratios
+            <div>
+                {% for item in ans.keys() %}
+                <ul>
+                    <li>{{ item }} : {{ ans[item] }}</li>
+                </ul>
+                {% endfor %}
+            </div>
+      </div>
+      <img class="frame-item" alt="" src="./public/rectangle-6.svg" />
+
+      <div class="ask-questions">Ask Questions</div>
+      <div class="frame-inner"></div>
+      <img class="line-icon" alt="" src="./public/line-2.svg" />
+
+      <div class="rectangle-parent">
+        <img class="group-child" alt="" src="./public/rectangle-5@2x.png" />
+
+        <div class="meta">META</div>
+      </div>
+      <div class="frame">
+        <input class="divemail-form-2" type="text" />
+
+        <button class="send-4"></button>
+      </div>
+      <textarea class="frame1"> </textarea>
+      <div class="frame2">
+        <div class="input">
+          <h3 class="answer">Answer</h3>
+        </div>
+      </div>
+      <div class="frame3">
+        <div class="input">
+          <h3 class="answer">Question</h3>
+        </div>
+      </div>
+      <div class="frame4">
+        <div class="input">
+          <h3 class="answer">Answer</h3>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var stockAnalyser = document.getElementById("stockAnalyser");
+      if (stockAnalyser) {
+        stockAnalyser.addEventListener("click", function (e) {
+          // Please sync "HOME" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
