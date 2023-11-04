@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --wwwuseblackboxio-inter-light-16: Inter;
+    --font-lato: Lato;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --wwwuseblackboxio-inter-light-16-size: 16px;
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --wwwuseblackboxio-blue-charcoal: #000511;
+    --color-snow: #fffcfc;
+    --wwwuseblackboxio-nero: #fff;
+    --wwwuseblackboxio-perano-47: rgba(159, 191, 239, 0.47);
+    --color-aliceblue: #f0f3f8;
+    --wwwuseblackboxio-heather: #b4bcd0;
+  
+    /* Paddings */
+    --padding-2xl: 21px;
+    --padding-3xs: 10px;
+    --padding-6xs: 7px;
+  
+    /* Border radiuses */
+    --br-xl: 20px;
+  }
+  
